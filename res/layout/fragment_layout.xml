@@ -1,0 +1,50 @@
+<org.biblio.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	<!--  International Button -->
+<!--     <Button
+        android:id="@+id/btn_international_feed"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/insternational"
+        android:text="International" /> -->
+    
+	<!--  Sudoc Button -->
+    <Button
+        android:id="@+id/btn_sudoc"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/search"
+        android:text="@string/DashBoardSearch"
+        />
+    
+	<!--  Sauvegarde/History Button -->
+    <Button
+        android:id="@+id/btn_history"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/save"
+        android:text="@string/DashBoardHistorique" />
+	
+    <!--  settings Button -->
+    <Button
+        android:id="@+id/btn_settings"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/setting"
+        android:text="@string/DashBoardSettings" />
+
+    <!--  Help Button -->
+    <Button
+        android:id="@+id/btn_help"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/help"
+        android:text="@string/DashBoardAide" />
+
+    <!--  Partners Button
+    <Button
+        android:id="@+id/btn_partners"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/about"
+        android:text="@string/DashBoardAPropos" /> -->
+
+</org.biblio.dashboard.DashboardLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    <EditTextPreference
+        android:key="username"
+        android:summary="Please provide your username"
+        android:title="Your Name" >
+    </EditTextPreference>
+    -->
+    <!-- application preferences -->
+    <PreferenceCategory
+        android:summary="@string/prefSection_appsummary"
+        android:title="@string/prefSection_apptitle" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="histoRecherche"
+            android:summary="@string/histoMemorySummary"
+            android:title="@string/histoMemoryTitle" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="applicationUpdates"
+            android:summary="@string/prefapp_update"
+            android:title="@string/prefapp_updatetitle" />
+        
+        
+    </PreferenceCategory>
+
+   <PreferenceCategory
+		android:summary="@string/prefSectionMunicipale"
+		android:title="@string/prefSectionMunicipaleRecherche" >
+        
+          <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="municipaleView"
+            android:summary="@string/prefMunicipale_view_summary"
+            android:title="@string/prefMunicipale_view_title" />
+       
+   </PreferenceCategory>
+
+    <!-- Authority sudoc -->
+    <PreferenceCategory
+        android:summary="@string/prefSection_autorite"
+        android:title="@string/prefSection_autoriteRecherche" >
+
+        <!-- Filtrage -->
+        <!-- Sort by for Autority Sudoc -->
+        <ListPreference
+            android:defaultValue="p"
+            android:entries="@array/listsortBy"
+            android:entryValues="@array/listsortByValues"
+            android:key="sortBy"
+            android:summary="@string/prefsortBy_title"
+            android:title="@string/prefsortBy_summary" />
+
+        <!-- Nombre de resultat requete -->
+        <ListPreference
+            android:defaultValue="200"
+            android:entries="@array/listnumresultAutorites"
+            android:entryValues="@array/listnumresultAutoritesValue"
+            android:key="numberResults"
+            android:summary="@string/prefNumberResults_title"
+            android:title="@string/prefNumberResults_summary" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="categoryOnglet"
+            android:summary="Cette option permet toujours disposer de l&apos;onglet autorité du sudoc"
+            android:title="Affichage Onglet" />
+    </PreferenceCategory>
+
+    <!-- Identity -->
+    <PreferenceCategory
+        android:summary="@string/prefSection_Identitysummary"
+        android:title="@string/prefSection_Identitytitle" >
+        <EditTextPreference
+            android:key="username"
+            android:summary="@string/prefSection_IdentityPersotitle"
+            android:title="@string/prefSection_IdentityPersoSummary" >
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:summary="@string/prefSection_sudoc"
+        android:title="@string/prefSection_sudocRecherche" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="categorySearch"
+            android:summary="@string/prefRechercheEtendu_summary"
+            android:title="@string/prefRechercheEtendu_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

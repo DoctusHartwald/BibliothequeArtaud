@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  	<!-- App name  -->
+    <string name="app_name">Doctus</string>
+    
+    <string name="app_pro_message_title">Achetez la version Premium</string>
+    <string name="app_pro_message">Cette fonctionnalité n\'est disponible que dans la version Doctus Premium.\n Vous pouvez achetez l\'application sur le market afin de disposer de toutes les fonctionnalités de l\'application .</string>
+    <string name="app_buy">Pour pouvoir continuer à utiliser l\'application achetez à la version Premium .\nCliquez sur Oui pour bénéficiez de Doctus Premium.</string>
+    <string name="app_buy_more">Soutaitez-vous bénéficier de l\'ensemble des fonctionnalitées offertes par l\'application</string>
+    
+    <string name="app_buy_yes">Oui</string>
+    <string name="app_buy_non">Non</string>
+    <string name="app_remerciement"> </string>
+    
+    <string name="message_disponibilite">
+        Désolé vous ne pouvez pas vérifier la disponibilité de cet ouvrage.\n
+        La bibliothèque ne propose pas encore ce service.
+    </string>
+     <string name="message_pro_dispo">
+         Vous devez disposez de la version Doctus Premium pour bénéficiez de cette fonctionnalité .
+     </string>
+    
+    <!-- Ecran onglet 1 -->
+    <string name="RechercheTexte">Tapez votre recherche ici &#88230;</string>
+    <string name="CritereRecherche">Critère de recherche</string>
+    <string name="RecherchePar">Catégorie de recherche : </string>
+    <string name="RechercheButton">Recherche</string>
+    <string name="help_message_onglet1">Entrez votre recherche, puis choisissez une catégorie. \n 
+        Si vous chechez un auteur tapez d\'abord son nom suivi de son prénom.</string>
+    
+    <!-- Ecran resuSudoc 1 -->
+    <string name="RechercheSudocPrecedent">Précédent</string>
+    <string name="RechercheSudocSuivant">Suivant</string>
+    <!-- Ecran favoris -->
+    <string name="FavoriTitre">Mes favoris</string>
+    
+    <!-- Ecran bibli municipale -->
+    <string name="MunicipaleTitre">Résultats de la recherche</string>
+    <string name="MunicipaleTitreLocation">Bibliothèque Municipale</string>
+    <string name="TitleTypedeDocument">Type de document</string>
+    <string name="TitleContenu">Contenu</string>
+    <string name="TitleCollection">Collection</string>
+    <string name="TitleFormat">Format</string>
+    <string name="TitleAuteur">Auteur</string>
+    <string name="TitlePublie">Publié</string>
+    <string name="TitleTitre">Titre</string>
+    <string name="TitleAutreInformation">Autre information</string>
+    
+    <string name="BibliLocation">Bibliothèques</string>
+    <string name="DetailsBibliLocation"> Détails de l\'ouvrage </string>
+    
+    
+    <!-- Ecran Liste Biblio -->
+    <string name="LocationTitle">Liste des Bibliothèques</string>
+    
+    <!-- Ecran DashBoard -->
+    <string name="DashBoardSearch">Recherche</string>
+    <string name="DashBoardHistorique">Favoris</string>
+    <string name="DashBoardSettings">Préférence</string>
+    <string name="DashBoardAide">Aide</string>
+    <string name="DashBoardAPropos">A Propos</string>
+    <string name="DashBoardBannerSlogan">Obtenez vos livres dans une bibliothèque</string>
+    
+    <!-- Ecran RecordsDetails -->
+    <string name="RecordDetail">Description détaillé</string>
+    <string name="RecordDetailLocation">Bibli</string>
+    <string name="RecordDetailPlusInfos">Plus infos</string>
+    <string name="RecordDetailResult">Détails de la Fiche</string>
+	<string name="RecordDetailPlusGoogle">Google</string>
+	<string name="RecordDetailPlusTitle">Résultats de la Recherche</string>
+    
+    
+	<!-- Ecran where details -->
+	<string name="WhereDetailsTitle">Bibliothèque</string>
+	<string name="WhereDetailsDisponibilite">Vérifier la disponibilité</string>
+	<string name="WhereDetailsLocation">Gps</string>
+	<string name="WhereDetailsTel">Tél</string>
+	
+	
+    <!-- Ecran autorite sudoc -->
+    <string name="AutorieSudocTitle">Résultats de la recherche</string>
+
+    
+    <!-- MENU  -->
+    <string name="menu_help">Help</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_about">About</string>
+    
+    <!-- ************************ -->
+    <!-- Preferences Screen -->
+    <!-- Identity -->
+    <string name="prefSection_Identitysummary">Votre signature</string>
+    <string name="prefSection_Identitytitle">Identité</string>
+    <string name="prefSection_IdentityPersotitle">Votre signature</string>
+    <string name="prefSection_IdentityPersoSummary">Ajoute une signature lorsque vous partagez un message </string>
+    
+    <!-- Application -->
+    <string name="prefSection_appsummary">Application Préférences</string>
+    <string name="prefSection_apptitle">Application Préférences</string>
+    <string name="prefapp_update">Cette option permet de mettre à jour la dernière version du logiciel</string>
+    <string name="prefapp_updatetitle">Mise à jour de l\'application</string>
+        
+    <!-- Sudoc -->
+    <string name="prefSection_sudoc">Sudoc</string>
+    <string name="prefSection_sudocRecherche">Recherche catalogue du Sudoc (VERSION BETA)</string>
+        
+    <!-- Autorite sudoc -->
+    <string name="prefSection_autorite">Autorité du Sudoc</string>
+    <string name="prefSection_autoriteRecherche">Recherche Autorité du Sudoc</string>
+    
+    <!-- Biblio Municipale -->
+    <string name="prefSectionMunicipale">Recherche bibliothèque municipale</string>
+    <string name="prefSectionMunicipaleRecherche">Recherche bibliothèque municipale</string>
+    <string name="prefMunicipale_view_summary">Cette option permet de disposer de l\'onglet bibliothèque municipale de Paris </string>
+   	 <string name="prefMunicipale_view_title">Affichage Onglet</string> 
+    <!--  -->
+    <string name="prefRechercheEtendu_summary">Cette option permet de disposer de toutes les categorie de recherche (Version bêta)</string>
+    <string name="prefRechercheEtendu_title">Catégorie étendue</string>
+        
+    <!-- sort by -->
+    <string name="prefsortBy_summary">Trier par</string>
+    <string name="prefsortBy_title">Cette option permet de trier les résultats de recherches</string>
+    
+    <!-- Nombre de resultats -->
+    <string name="prefNumberResults_summary">Nombre de résultats</string>
+    <string name="prefNumberResults_title">Cette option permet de définir le nombre de résultats </string>
+    
+    
+    <!-- Histo recherche -->
+    <string name="histoMemoryTitle">Rappel Historique Recherche</string>
+    <string name="histoMemorySummary">Cette option permet de vous rappeler l\'historique de vos recherches</string>
+    
+    
+    <!-- Aide -->
+    <!-- Aide sudoc -->
+    <string name="AideCategory0">Le Sudoc</string>
+    <string name="AideCategory1">But de l\'application</string>
+    <string name="AideCategory2">Recherche Tous les mots</string>
+    <string name="AideCategory3">Recherche Auteur</string>
+    <string name="AideCategory4">Autre Type de Recherche</string>
+	<string name="AideCategory5">Bibliothèque Municipale</string>
+    <string name="AideCategory6">A Propos</string>
+    <string name="AideCategory7">Remerciements</string>
+    <string name="AideCategory8">Plus informations</string>
+    
+    <string name="AideAboutSudocTitle">
+        A Propos
+    </string>
+	<string name="aboutApps">
+	    
+	    v 1.0 Version initial de l\'application -sept 2012
+	</string>
+    
+    <string name="AideAboutSudocDescription">
+    	SUDOC :  Le système universitaire de documentation (SUDOC) permet aux bibliothèques des universités françaises et d\'autres établissements d\'enseignement supérieur de recenser les documents en leur possession.\n
+    </string>
+    <string name="AideAboutSudocDescription3">
+        A propos du SUDOC : \n
+        Le catalogue du Sudoc recense environ 10 millions de notices bibliographiques qui décrivent tous les types de documents (livres, thèses, revues, ressources électroniques, documents audiovisuels, microformes, cartes, partitions, manuscrits et livres anciens...).\n
+		Environ 3400 établissements documentaires participent aux activités du réseau Sudoc et du réseau Sudoc PS.\n
+		Grâce au catalogue du Sudoc vous pouvez retrouver vos livres dans les bibliothèques universitaires ainsi que dans les établissements d\'enseignement supérieur.	
+    </string>
+
+    <string name="AideBiblioMunicipaleDescription">
+        \n
+		A propos des Bibliothèques Municipales de PARIS : \n 
+		Les Bibliothèques municipales de la ville de Paris sont un réseau de bibliothèques municipales de la Ville de Paris, regroupant 58 bibliothèques de prêt (dont une réserve centrale) et plus d\'une dizaine de bibliothèques spécialisées, réparties à travers les 20 arrondissements de la ville.
+		Pour pouvoir bénéficier de l\'onglet "Municipale" allez dans les préférences et cochez affichage onglet dans la catégorie Recherche Bibliothèque Municipale.
+		\n
+		Liste des Bibliothèques : http://equipement.paris.fr/?tid=235,237
+    </string>
+    <string name="AideBiblioMunicipaleDetails">
+        L\'écran suivant vous apporte des informations complémentaires sur l\'ouvrage que vous recherchez .\n
+        Le bouton du bas "Bibliothèque" vous offre la possibilité de savoir où votre ouvrage est disponible.  
+    </string>
+    <string name="AideBiblioMunicipaleLocation">
+    	L\'écran suivant vous informe de la disponibilité et de la cote où se trouve votre ouvrage.\n
+    	Vous pouvez ensuite cliquer sur une des bibliothèques de la liste .\n Vous serez ensuite redirigé(e) vers application Google Maps.\n
+		La pastille verte vous indique que l\'ouvrage est disponible.\n 
+		La pastille bleu vous indique que l\'ouvrage est emprunté.\n  
+		La pastille rouge vous indique que l\'ouvrage est indisponible.\n    	            
+   	</string>
+    
+    <string name="AideButApplication">
+        But de l\'application : \n
+		Doctus Premium permet une recherche fédérée à la fois dans :\n
+		-le catalogue SUDOC\n
+		-les autorités du Sudoc (comprend plusieurs applications)\n
+		-Google Book \n
+		-les bibliothèques municipales de Paris  \n
+		
+		 
+		\n\n
+		
+		Fonctionnalités de Doctus Premium  : \n
+		1/ Savoir où mon ouvrage est disponible \n
+		2/ Vérifier la disponibilité effective de l\'ouvrage dans la bibliothèque. \n
+		3/ Consulter le livre sur Google Book. \n 
+		4/ Obtenir des informations complémentaires sur l\'ouvrage via WorldCat. \n
+		5/ Etre guidé(e) vers la bibliothèque (via GPS -  Google Maps). \n
+		6/ Appeler la bibliothèque si vous souhaitez des informations complémentaires. \n
+		7/ Faire connaître et valoriser les travaux de thèses.   \n
+		
+	     * Vous pouvez consultez les onglets suivants pour connaître les différentes fonctionnalités offertes par Doctus Premium .\n
+	     \n \n
+	     A qui s\'adresse cette application ?\n
+	     Aux étudiants, aux enseignants chercheurs ainsi que toutes personnes souhaitant rechercher :\n
+	      -livres\n 
+	      -thèses \n 
+	      -revues \n
+	      -ressources électroniques \n
+	      -documents audiovisuels \n
+	      -microformes \n
+	      -cartes \n 
+	      -partitions \n 
+	      -manuscrits \n 
+	      -livres anciens \n
+	      etc
+	    
+    </string>
+    
+    <string name="AideRechercheTous">
+        Séléctionnez la catégorie de recherche : \n
+         => Tous les mots\n
+	     Cette catégorie de recherche va effectuer une recherche sur l\'ensemble des index du catalogue du Sudoc. \n
+		Vous pouvez donc rechercher tous les types de documents (livres, thèses, revues, ressources électroniques, documents audiovisuels, microformes, cartes, partitions, manuscrits et livres anciens...).\n
+		* Exemple : Le rouge et le noir Stendhal \n \n
+		
+	</string>
+	<string name="AideRechercheTousPlus">
+	   	-> Note : Vous pouvez également activer l\'onglet "autorités du sudoc"(IdRef) dans les préférences de l\'application.\n
+	    Cette option vous permet d\'intéragir avec STAR , STEP, Theses.fr, Calames  a pour vocation d\'interagir avec d\’autres applications documentaires du monde de l\’Enseignement Supérieur et de la Recherche.
+	    Vous pouvez consultez les onglets suivants pour avoir plus de détails.\n \n
+		=>Glossaire : \n
+		* Star (dépot national des thèses électroniques) \n
+		* Step - Signalement des Thèses En Préparation \n
+		* Calames - Catalogue en Ligne des Archives et des Manuscrits de l\’Enseignement Supérieur (manuscrits et archives)\n 
+	</string>
+	
+    <string name="AideAutreTypedeRecherche">
+        Par défaut l\'application vous propose d\'effectuer vos recherches dans les catégories:\n
+         "Tous les mots", "Auteur", "Titre", "Mots de Sujets".\n
+        Si vous souhaitez étendre le nombre de catégories 
+        cochez la case "Catégories étendues" dans les préférences de l\'application.\n
+    </string>
+    <string name="AideRechercheDetails">
+        Une fois que vous avez sélectionné l\'ouvrage qui vous intéresse : \n
+         Vous obtenez les détails de l\'ouvrage que vous avez choisi ainsi que sa pochette.\n
+		=> En bas de l\'écran se trouvent les actions disponibles : \n
+		* Consulter l\'ouvrage sur Google Book. \n
+		* Connaître les bibliothèques dans lesquelles se trouve votre ouvrage \n 
+		* Obtenir des informations complémentaires sur le site de WorldCat. 
+    </string>
+    
+    
+    <string name="AideRechercheDetailsBibliotheque">
+        Si vous sélectionnez le bouton Bibli vous obtiendrez cet écran 
+        vous présentant la liste des bibliothèques dans lequel est disponible l\'ouvrage.\n
+    </string>
+    <string name="AideRechercheDetailsBibliothequeDispo">
+		\n L\'écran suivant vous permet de vérifier la disponiblité effective de votre ouvrage et vous propose de vous guider sur Google Maps jusquà votre bibliothèque.
+		\n Vous pouvez également  téléphoner à la bibliothèque 
+    </string>
+    
+     <string name="AideRechercheAuteur">
+         Séléctionnez la catégorie de recherche : "Auteur" \n
+         Cette catégorie vous permet de rechercher les ouvrages rattachés à cet auteur et d\'en connaître sa bibliographie.\n
+		 => Tapez en premier le nom puis le prénom de auteur\n
+		 * Exemple 1: Sartre Jean Paul \n
+		 * Exemple 2: Gilson Etienne \n
+		 Le première onglet "Sudoc" vous permet de connaître les ouvrages rattachés à cet auteur.\n
+		 
+		 Dans le deuxième onglet "Bibliographie", vous pouvez connaître la bibliographie de l\'auteur recherché. 
+		 Vous pouvez ainsi connaître le rôle de auteur dans chacun des écrits publiés .\n
+    </string>
+    <string name="AideRechercheAuteur2">
+         L\'écran suivant vous aide à connaître la bibliographie de l\'auteur recherché.\n 
+		 Vous pouvez ainsi connaître le rôle de l\'auteur dans chacun des écrits publiés .\n
+    </string>
+     <!-- Star -->
+    <string name="AidePropos">
+    	ABES: \n	
+    	ABES a été créée en 1994 pour mettre en place le Sudoc.\n
+		Le catalogue Sudoc permet de recenser les documents disponibles au sein des universités francaises et des enseignements supérieurs.\n
+		D’autres catalogues sont venus progressivement enrichir son offre : \n
+		Calames en 2007 permettant de gérer le référencement des manuscrits et archives de l\'enseignement supérieur.\n
+		 Le catalogue Star en 2006 \n
+		Le Référentiel autorité sudoc en 2011.\n
+    </string>
+    <string name="AidePropos2">
+        Star\n
+        Star (dépot national des thèses électroniques) \n 
+		assure le référencement et facilite la recherche des thèses soutenues.\n 
+		Cette plateforme offre ainsi de nouveaux débouchés tels que une visibilité accrue, la valorisation des travaux et une conservation sur le long terme.\n 
+		Star  :\n
+		-permet un archivage pérenne de la thèse au centre informatique de l\'enseignement supérieur CINES.\n 
+		-assure le signalement automatique dans le catalogue du Sudoc.\n 
+		-veille au respect des droits de la propriété intelectuelle.\n
+		-exposer les métadonnées dans un entrepôt OAI - PMH \n
+		-héberger sur une plateforme de l’ABES le document thèse pour faciliter sa\n 
+		diffusion (à la demande de l’établissement et du docteur).\n
+		-envoyer métadonnées et documents vers une ou des plateformes de\n
+		diffusion (à la demande de l’établissement et du docteur).\n
+    </string>
+    
+    <string name="AidePropos3">
+        Calames\n 
+		Catalogue en ligne des archives et des manuscrits de l\'enseignement supérieur est à destination des établissements déployés dans le réseau Calames.
+    </string>
+    
+    <string name="AidePropos4">
+        theses.fr \n 
+        facilite la synergie entre les acteurs des 
+		thèses en France depuis le choix du sujet de thèse
+		jusqu’à la valorisation des travaux.
+    </string>
+    
+    <string name="AidePropos5">
+       \n WorldCat est la base de données bibliographiques en ligne de l\'OCLC (Online Computer Library Center), réputé le plus grand catalogue OPAC (Online public access catalog) du monde.\n
+        Son nom est la contraction de l\'anglais World Catalog (catalogue mondial). \n 
+        Créé en 1971, il contient les données relatives à plus de 10 000 bibliothèques publiques et privées du monde. 
+        En 2005, il englobait 73 % du National Union Catalog (catalogue des livres d\'avant 1956).\n
+        WorldCat est disponible dans nombre de bibliothèques et sur les réseaux informatiques des universités ; \n
+        depuis août 2006, il est en accès libre via le Web sur WorldCat.org.
+		L\'Agence bibliographique de l\'enseignement supérieur (ABES), collabore avec l\'OCLC pour mener à bien le projet WorldCat. \n 
+		Le but est d\'améliorer la visibilité du catalogue Sudoc (système universitaire de documentation).\n
+		Le projet prévoit le versement des données du Sudoc dans WorldCat. \n
+		Il s\'agira, pour les établissements, de rendre les collections des bibliothèques du Sudoc visibles sur WorldCat. Pour cela, l\'ABES enverra une copie de la base du Sudoc à l\'OCLC qui l\'intégrera à Worldcat après dédoublonnage. (source wikipédia)
+    </string>
+     <string name="AideRemerciements">
+         Je tiens à remercier tous ceux qui ont pu m\'aider dans la réalisation de cette application.\n
+         Si vous aimez cette application, parlez-en à vos amis :) .
+         Montrez votre soutien en achetant la version premium.
+     </string>
+    
+    <string name="AideRechercheTousLesMotsTitle">Object : Rechercher tous les mots </string>
+    <string name="AideRechercheTousLesMotsDescription">Permet d\'effectuer une recherhe sur l\'ensemble des catalogues du sudoc </string>
+    <string name="AideRechercheAuteurTitle">Object : Rechercher un auteur </string>
+    <string name="AideRechercheAuteurDescription">Tapez le nom de auteur recherché et dans les critères de recherches la catégorie auteur</string>
+    <string name="AideRechercheAuteurTitle1">Object : Rechercher un auteur </string>
+    <string name="AideRechercheAuteurDescription1">
+        Onglet Sudoc : \n
+        Dans le premier onglet se trouve les résultats du Catalogue du Sudoc . \n
+        Cet onglet permet d\'orienter sa recherche sur des ouvrages vis à vis d\'un auteur . \n
+        Dans le deuxième onglet se trouve une liste d\'auteur susceptible de correspondre à votre recherche .
+        Onglet Bibliographie : \n
+        Ce deuxième onglet permet d\'obtenir la bibliographie complète rattachée à l\'auteur recherché. \n
+        Ces résultats sont issus pour le première onglet du catalogue du Sudoc . \n
+        Les résultats du deuxième onglet proviennent des autorités du Sudoc .  \n
+        </string>
+        
+    
+    
+   
+    
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Search an item</string>
+    <!-- The description that will show up in the search settings for this source. -->
+    <string name="settings_description">proposal of the items available</string>
+    <!-- General instructions in the main activity. -->
+    <string name="alternate_title">An alternate title that is long</string>
+    <string name="search_label">Rercherche</string>
+</resources>

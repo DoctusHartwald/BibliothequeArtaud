@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listArray">
+        <item>Headings</item>
+        <item>Headings and Details</item>
+        <item>All Data</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Preferences -->
+    <!-- Sort By recherche Autorite -->
+   <string-array name="listsortBy">
+        <item>Pertinence</item>
+        <item>Alphabétique ascendant</item>
+        <item>Alphabétique descendant</item>
+    </string-array>
+    <string-array name="listsortByValues">
+        <item>p</item>
+        <item>a</item>
+        <item>adesc</item>
+    </string-array>
+    
+    <!-- Nombre de resultat  recherche Autorite -->
+	<string-array name="listnumresultAutorites">
+	    <item>30</item>
+        <item>42</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+    </string-array>
+    <string-array name="listnumresultAutoritesValue">
+        <item>30</item>
+        <item>42</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+    </string-array>
+</resources>

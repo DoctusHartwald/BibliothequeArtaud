@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#888888</color>
+    <color name="text_color">#00FFFF</color>
+    <color name="btn_blue">#33B5E5</color>
+    <color name="blue">#3050A0</color>
+    <color name="green">#006600</color>
+
+    <!-- Action Bar Color -->
+    <color name="actionbar_separator">#3A5FCD</color>
+    <color name="actionbar_background_start">#3A5FCD</color>
+    <color name="actionbar_background_end">#27408B</color>
+
+</resources>

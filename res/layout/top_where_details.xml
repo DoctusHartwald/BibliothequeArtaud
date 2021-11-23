@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_linear_layout_id_wheredetails"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="bottom"
+    android:background="#eee"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/wherebuttonDispo"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:background="@drawable/action_help" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="@string/WhereDetailsDisponibilite"
+        android:textSize="11dip" />
+
+    <Button
+        android:id="@+id/wherebuttonLocation"
+        android:layout_width="40dp"
+        android:layout_height="31dp"
+        android:background="@drawable/location_place" />
+    <!-- @android:drawable/ic_dialog_map -->
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="@string/WhereDetailsLocation"
+        android:textSize="12dip" />
+
+    <Button
+        android:id="@+id/wherebuttonTel"
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:background="@drawable/deviceaccesscall" />
+
+    <TextView
+        android:id="@+id/textViewTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dip"
+        android:text="@string/WhereDetailsTel"
+        android:textSize="12dip" />
+
+</LinearLayout>

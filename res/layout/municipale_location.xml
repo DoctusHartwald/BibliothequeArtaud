@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1MunicipaleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageViewRecordMunicipaleDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:src="@drawable/records" />
+
+        <TextView
+            android:id="@+id/textViewRecordDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/DetailsBibliLocation"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/top_linear_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/pochetteMunicipale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingBottom="10dip"
+            android:paddingTop="32dip" >
+        </ImageView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listMunicipaleLocationDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_linear_layout_id"
+        android:divider="@drawable/dash"
+       >
+    </ListView>
+
+    <include
+        android:id="@+id/footerRecordsLocationMunicipaleDetails"
+        layout="@layout/bar_location_municipale" />
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageViewRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:src="@drawable/records" />
+
+        <TextView
+            android:id="@+id/textViewRecordPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dip"
+            android:text="@string/RecordDetailPlusTitle"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:src="@drawable/info" />
+
+		  <TextView
+            android:id="@+id/textNumberRecordTexte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dip"
+            android:text="Nombre de résultats :"
+            android:textColor="#669900" />
+		  
+        <TextView
+            android:id="@+id/textNumberRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text=""
+            android:textColor="#669900" />
+ 
+        <TextView
+            android:id="@+id/textNumberRecordPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingLeft="10dip"
+            android:text="P1"
+            android:textColor="#FF8800" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listPreviousSearchSudoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bk_grey"
+        android:divider="@drawable/dash"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+    </ListView>
+
+    <ListView
+        android:id="@+id/listRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_linear_layout_id_edition"
+        android:layout_below="@id/linearLayout1"
+        android:layout_weight="0.56"
+        android:divider="@drawable/dash"
+        >
+    </ListView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <include
+        android:id="@+id/footerEdition"
+        layout="@layout/footer_sudoc_edition" />
+
+</LinearLayout>

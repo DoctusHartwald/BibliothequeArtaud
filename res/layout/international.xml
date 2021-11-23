@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutWhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/globe" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="International"
+            android:paddingLeft="20dip"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    
+    
+   <ImageView
+       android:id="@+id/imageView4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/bar" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/top_linear_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbar_background"
+            android:padding="15dip"
+            android:text="Description"
+            android:textColor="#f8f9fe"
+            android:textSize="10dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+   
+    <ListView
+        android:id="@+id/listInternationnalTitles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+	
+    
+      <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/top_linear_layout_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbar_background"
+            android:padding="15dip"
+            android:text="Co-Authors"
+            android:textColor="#f8f9fe"
+            android:textSize="10dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/listInternationalCoAuthors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutOnglet2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageButton1"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/globe" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search for a Book"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+	  <ImageView
+	      android:paddingTop="5dip"
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bar" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/searchTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:drawableLeft="@drawable/next"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/actionbar_background"
+        android:paddingTop="7dip"
+        android:text="Criterias"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- @android:drawable/ic_menu_myplaces -->
+
+        <TextView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/double_right_arrow"
+            android:drawablePadding="10dip"
+            android:paddingTop="5dip"
+            android:text="Category"
+            android:textSize="14dip" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+	  <Button
+            android:id="@+id/buttonSearch"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue"
+            android:text="Search" />
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:content="@+id/contentLayout"
+        android:handle="@+id/drawerHandle" >
+
+        <ImageView
+            android:id="@+id/drawerHandle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_help" >
+        </ImageView>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/contentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="111dp"
+                android:gravity="left"
+                android:text="@string/help_message_onglet1"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/calames" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</LinearLayout>
